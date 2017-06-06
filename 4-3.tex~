@@ -1,0 +1,79 @@
+\documentclass[12pt,a4j]{jarticle}
+\title{実習4.2}
+\author{15515031 小泉　宗之}
+\date{2017年5月30日}
+
+\begin{document}
+\maketitle
+
+\subsection{打ち込んだとおりに出力する}
+次はCのサンプルである。
+\begin{verbatim}
+#include <stdio.h>
+int main()
+{
+  int i=2;
+    printf("%d %d\n", i, i*i) ;
+
+  return 0;
+}
+\end{verbatim}
+ここで、\verb|#include|　はプリプロセッサへの命令で...　また、\verb+%d+で整数型の変数を表す.
+
+\subsection{箇条書き}
+上杉家の名君として次の二人が有名。
+\begin{description}
+\item[上杉謙信] 1530 -- 1578没。
+米沢上杉家の藩祖。名将と謳われる。
+\item[上杉鷹山] 1751 -- 1822没。
+第9代米沢藩主。　中興の名君。
+\end{description}
+
+The latest CD by ''PUR'' consists of 4 songs with the title:
+\begin{enumerate}
+\item Ouvert\"ure
+\item Hold me tight
+\item If you hear this Tango
+\item Adventure land.
+\end{enumerate}
+
+山形大学米沢キャンパス組織図 :
+\begin{itemize}
+\item 工学部 (6学科)
+ \begin{itemize}
+ \item 情報科学科
+ \item 電気電子工学科
+ \item 応用生命システム工学科
+ \item (他3学科略)
+ \end{itemize}
+\item 大学院理工学研究科(9専攻)
+ \begin{itemize}
+ \item 情報科学専攻
+ \item 電気電子工学専攻
+ \item 応用生命システム工学専攻
+ \item (他6専攻略)
+ \end{itemize}
+\end{itemize}
+
+\subsection{中央寄せとスペーシング}
+強調のため、ある単語または文を
+中心に置くには
+\begin{center}
+center 環境
+\end{center}
+を用いる。
+
+\subsection{表組み}
+\begin{center}
+\begin{tabular}{r|lc}
+\hline
+国名 & 首都 & 通貨 \\
+\hline
+日本 & 東京 & 円 \\
+イギリス & ロンドン & ポンド \\
+アルゼンチン&ブエノスアイレス&ペソ\\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}

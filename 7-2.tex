@@ -1,0 +1,26 @@
+\documentclass[12pt,a4j]{jarticle}
+\title{実習7.2}
+\author{15515031 小泉　宗之}
+\date{2017年6月6日}
+
+\begin{document}
+\maketitle
+\begin{equation}
+B:=\int\int_{[0,\infty)^2}
+e^{-(x^2+y^2)}\,dxdy\label{eq:xyint}
+\end{equation}
+式(\ref{eq:xyint})に極座標変換
+$x=r\cos\theta$, $y=r\sin\theta$
+を代入すると、
+\begin{eqnarray}
+B & = & \int_{r=0}^{\infty}
+\int_{\theta=0}^{\frac{\pi}{2}}
+e^{-r^2}r\,drd\theta \nonumber \\
+& = & \frac{\pi}{2}\int_{0}^\infty
+e^{-r^2}r\,dr\label{eq:rint}
+\end{eqnarray}
+となる。式(\ref{eq:rint})において、$u=r^2$と置くと、
+\begin{eqnarray}
+
+\end{eqnarray}
+\end{document}

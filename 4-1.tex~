@@ -1,0 +1,21 @@
+\documentclass[12pt,a4j]{jarticle}
+\title{実習4.2}
+\author{15515031 小泉　宗之}
+\date{2017年5月30日}
+
+\begin{document}
+\maketitle
+109キーボードの第一列には数字が並んでいるが、shiftキーを押しながらでは、順に、
+\begin{center}
+! `` \# \$ \% \& ' ( ) = \textasciitilde \textbar
+\end{center}
+が入力される。(ちなみにこれはverbatim環境を利用すると、
+\begin{verbatim}
+! `` # $ % & ' ( ) = ~ |
+\end{verbatim}
+という表示になる。)これが、101キーボードでは、
+\begin{center}
+! @ \# \$ \% \& * ( ) - + \textbar \textasciitilde
+\end{center}
+と異なる順に配置されている。
+\end{document}

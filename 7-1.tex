@@ -1,0 +1,28 @@
+\documentclass[12pt,a4j]{jarticle}
+\title{実習7.1}
+\author{15515031 小泉　宗之}
+\date{2017年6月6日}
+
+\begin{document}
+\maketitle
+関数$f(x)$の定義を
+\begin{equation}
+			f(x)=x^{3} + {\beta}x^{2} - x^{2} + {\beta}x　({\beta}>1)\label{eq:xyint}
+\end{equation}
+とする. 関数$f(x)$の微分$df^{2}/dx$は次式のとおり
+\begin{equation}
+			\frac{df^{2}}{dx} = 3x^2 -2{\beta}x - 2x + \beta \label{eq:xyrint}
+\end{equation}
+式(2)が0になるときに極値をとる.　このときの$x$は
+\begin{equation}
+			x = \frac{ {\beta} + 1 {\pm} \sqrt{ {\beta}^2 - {\beta}+1 } }  {3}\label{eq:xyrrint}
+\end{equation}
+\begin{table}[htb]
+ \begin{tabular}{|c|c|c|c|c|c|} \hline
+
+$x$ & ... & $\frac{ {\beta} + 1 - \sqrt{ {\beta}^2 - {\beta}+1 } }  {3} $ & ...&$\frac{ {\beta} + 1 + \sqrt{ {\beta}^2 - {\beta}+1 } }  {3}$ & ... \\ \hline
+$f'(x)$ & + & 0 & - & 0 & + \\ \hline 
+$f(x)$ & $\nearrow$ & 極大 & $\searrow$ & 極小 & $\nearrow$ \\ \hline
+ \end{tabular}
+\end{table}
+\end{document}
